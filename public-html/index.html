@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JACOL - Junior Academy Course Online and Learning</title>
+    <link rel="shortcut icon" href="./images/icon.svg" type="image/x-icon">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FONTS -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light pt-4">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./images/favicon.svg" alt="logo-jacol" loading="lazy"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto me-auto my-2 my-lg-0  navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Tutorial</a>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Kursus <img class="ms-2" src="./images/arr-dropdown.svg" alt="">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Modul</a>
+              </li>
+
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Tentang</a>
+              </li>
+
+            </ul>
+
+            <a class="btn btn-navbar sign-in" href="#">Sign in</a>
+            <a class=" btn btn-navbar sign-up" href="#">Sign up</a>
+
+          </div>
+        </div>
+    </nav>
+
+  <!-- Header Jacol -->
+    <header class="container">
+        <div class="header-jacol row pt-5 mt-5">
+          <img src="./images/smirnov-school.svg" class="smirnov-school" loading="lazy" alt="">
+            <div class="col-12 col-md-6 content-header">
+                <h1 class="title-header">Mari Belajar & Berpetualang </h1>
+                <p class="text-header">Menghadirkan pembelajaran yang menyenangkan bagi anak, yang dikemas dengan latar belakang game rpg.</p>
+                <a class="btn btn-header" href="#">Mulai Belajar</a>
+            </div>
+          <img src="./images/smirnov-school-2.svg" class="smirnov-school-2" loading="lazy" alt="">
+            <div class="col-12 col-md-6">
+                <img src="./images/img-hero.jpg" alt="banner-jacol" loading="lazy" class="banner-header">
+            </div>
+        </div>
+    </header>
+
+    <!-- Mapel Jacol -->
+    <section id="mapel">
+      <div class="container bg-dark">
+        <div class="row">
+          <!-- Content Mapel -->
+          <div class="col-12 col-md-6 text-white">
+            <p class="sub-title">PELAJARAN</p>
+            <h2 class="title-mapel">Pembelajaran 
+              Menarik</h2>
+            <p class="text-mapel mt-3">Menghadirkan mata pelajaran dasar
+              yang penting bagi anak. Dikemas dengan
+              menarik sehingga anak tidak akan bosan</p>
+            <a class="btn btn-mapel" href="#">Selengkapnya  </a>
+          </div>
+
+          <!-- Choose Mapel -->
+          <div class="col-12 col-md-6">
+            <div class="list-mapel row">
+              <div class="col-md-3 col-5 m-2 card-mapel card d-flex py-2 text-center align-items-center">
+                <a href="#" class="text-white">
+                  <img src="./images/mapels/mtk.png" alt="mtk" width="auto" height="93">
+                  <p class="my-2">Matematika</p>
+                </a>
+              </div>
+              <div class="col-md-3 col-5 m-2 card-mapel card d-flex py-2 text-center align-items-center">
+                <a href="#" class="text-white">
+                  <img src="./images/mapels/ipa.png" alt="ipa" width="auto" height="93">
+                  <p class="my-2">IPA</p>
+                </a>
+              </div>
+              <div class="col-md-3 col-5 m-2 card-mapel card d-flex py-2 text-center align-items-center">
+                <a href="#" class="text-white">
+                  <img src="./images/mapels/ips.png" alt="ips" width="auto" height="93">
+                  <p class="my-2">IPS</p>
+                </a>
+              </div>
+              <div class="col-md-3 col-5 m-2 card-mapel card d-flex py-2 text-center align-items-center">
+                <a href="#" class="text-white">
+                  <img src="./images/mapels/senbud.png" alt="ips" width="auto" height="93">
+                  <p class="my-2">Seni Budaya</p>
+                </a>
+              </div>
+              <div class="col-md-3 col-5 m-2 card-mapel card d-flex py-2 text-center align-items-center">
+                <a href="#" class="text-white">
+                  <img src="./images/mapels/agama.png" alt="ips" width="auto" height="93">
+                  <p class="my-2">Agama</p>
+                </a>
+              </div>
+              <div class="col-md-3 col-5 m-2 card-mapel card d-flex py-2 text-center align-items-center">
+                <a href="#" class="text-white">
+                  <img src="./images/mapels/ppkn.png" alt="ips" width="auto" height="93">
+                  <p class="my-2">PPKN</p>
+                </a>
+              </div>
+              <div class="col-md-3 col-5 m-2 card-mapel card d-flex py-2 text-center align-items-center">
+                <a href="#" class="text-white">
+                  <img src="./images/mapels/olahraga.png" alt="ips" width="auto" height="93">
+                  <p class="my-2">Olahraga</p>
+                </a>
+              </div>
+              <div class="col-md-3 col-5 m-2 card-mapel card d-flex py-2 text-center align-items-center">
+                <a href="#" class="text-white">
+                  <img src="./images/mapels/b-inggris.png" alt="ips" width="auto" height="93">
+                  <p class="my-2">B. Inggris</p>
+                </a>
+              </div>
+              <div class="col-md-3 col-5 m-2 card-mapel card d-flex py-2 text-center align-items-center">
+                <a href="#" class="text-white">
+                  <img src="./images/mapels/b-indonesia.png" alt="ips" width="auto" height="93">
+                  <p class="my-2">B. Indonesia</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Peran Jacol -->
+    <section class="section-role">
+      <div class="container">
+        <div class="title-role-jacol text-center pb-5">
+          <p class="sub-title">PERAN</p>
+          <h1 class="title-role"> Pilih Peranmu Sekarang</h1>
+        </div>
+        <div class="row" id="heroes">
+          <div class="col-md-4">
+            <!-- KESATRIA -->
+            <a href="#" data-id="1" class="d-block mt-3 active">
+              <img src="./images/heroes/prof-kesatria.png" class="img-fluid hero-1 " alt="kesatria">
+              <span>Kesatria</span>
+            </a>
+            <!-- PENGRAJIN -->
+            <a href="#" data-id="2" class="d-block mt-3">
+              <img src="./images/heroes/prof-pengrajin.png" class="img-fluid hero-2" alt="Pengrajin">
+              <span>Pengrajin</span>
+            </a>
+            <!-- PENYIHIR -->
+            <a href="#" data-id="3" class="d-block mt-3">
+              <img src="./images/heroes/prof-penyihir.png" class="img-fluid hero-3" alt="Penyihir">
+              <span>Penyihir</span>
+            </a>
+
+          </div>
+          <!-- Image Hero -->
+          <div class="col-md-4 " id="chara-hero">
+            <img src="./images/heroes/kesatria.png" alt="" loading="lazy" class="img-fluid mx-auto">
+          </div>
+
+          <div class="col-md-4">
+            <!--About Hero  -->
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#roleAbout" aria-expanded="true" aria-controls="roleAbout">
+                          <img src="./images/heroes/list.svg" alt="" class="img-fluid me-2">
+                          Tentang Peran
+                      </button>
+                  </h2>
+                  <div id="roleAbout" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                      <div class="accordion-body text-start">Kesatria pemberani yang mengayunkan pedangnya untuk melindungi yang lemah dan melawan kejahatan.</div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#roleAdvantage" aria-expanded="false" aria-controls="roleAdvantage">
+                          <img src="./images/heroes/list.svg" alt="" class="img-fluid me-2">
+                          Kelebihan Peran
+                      </button>
+                  </h2>
+                  <div id="roleAdvantage" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                      <div class="accordion-body text-start">Kamu akan mendapatkan tambahan kekuatan dan keberanian yang luar biasa</div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rolePurpose" aria-expanded="false" aria-controls="rolePurpose">
+                          <img src="./images/heroes/list.svg" alt="" class="img-fluid me-2">
+                          Tujuan Peran
+                      </button>
+                  </h2>
+                  <div id="rolePurpose" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" >
+                      <div class="accordion-body text-start">Melindungi yang lemah, dan Menumpas yang jahat</div>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- Name of Hero -->
+          <h1 class="text-center name-hero">KESATRIA</h1>
+
+        </div>
+      </div>
+    </section> //BELUM BERES HARUS FETCH API
+
+    <!-- Pelajaran Jacol -->
+    <section id="about-pengetahuan">
+        <div class="row mt-5">
+
+          <div class="col-12 col-md-6 about-pengetahuan">
+            <img src="./images/about/about-org.png" alt="" loading="lazy" class="img-fluid img-about-pengetahuan">
+            <img src="./images/about/butterfly.svg" alt="" loading="lazy" class="img-fluid svg-butterfly">
+            <img src="./images/about/ranting.svg" alt="" loading="lazy" class="img-fluid svg-ranting">
+          </div>
+
+          <div class="col-12 col-md-6 content-about-pengetahuan">
+              <p class="sub-title">PENGETAHUAN</p>
+              <h2 class="title-about-pengetahuan">Pilih Kelas & Pelajaran yang Kamu Sukai</h2>
+              <p class="text-about-pengetahuan mt-3">Pelajaran & kelas yang disukai anak akan membuat perkembangan yang sangat pesat bagi anak.</p>
+              <a class="btn btn-about-pengetahuan" href="#">Selengkapnya  </a>
+          </div>
+
+        </div>
+    </section>
+
+    <!-- Manfaat Jacol -->
+    <section id="benefits">
+      <div class="container pt-120">
+        <div class="row">
+
+          <div class="col-12 col-md-6 list-benefits">
+            <div class="content-benefit">
+              <p class="sub-title">MANFAAT</p>
+              <h2 class="title-benefit mb-5">Apa yang akan kamu dapatkan ?</h2>
+            </div>
+
+            <div class="row">
+              
+              <div class="col-6 col-md-4 my-2 px-2">
+                <div class="card item-benefit-1">
+                  <div class="card-title-benefit p-3">
+                  <img src="./images/benefits/lencana.svg" class="img-fluid img-card-benefit" loading="lazy" alt="lencana" />
+                </div>
+                <div class="card-body body-benefit">
+                  <h5 class="card-title-benefit">Lencana</h5>
+                  <p class="card-text-benefit">Pilih yang kamu pelajari dan dapatkan lencana.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 my-2 px-2">
+                <div class="card item-benefit-1">
+                  <div class="card-title-benefit p-3">
+                  <img src="./images/benefits/penghargaan.svg" class="img-fluid img-card-benefit" loading="lazy" alt="penghargaan.svg" />
+                </div>
+                <div class="card-body body-benefit">
+                  <h5 class="card-title-benefit">Penghargaan</h5>
+                  <p class="card-text-benefit">Dapatkan pernghargaan dan selesaikan kursusmu.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 my-2 px-2">
+                <div class="card item-benefit-1">
+                  <div class="card-title-benefit p-3">
+                  <img src="./images/benefits/target.svg" class="img-fluid img-card-benefit" loading="lazy" alt="target.svg" />
+                </div>
+                <div class="card-body body-benefit">
+                  <h5 class="card-title-benefit">Capai Target</h5>
+                  <p class="card-text-benefit">Capai beberapa target yang kamu buat</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 my-2 px-2">
+                <div class="card item-benefit-1">
+                  <div class="card-title-benefit p-3">
+                  <img src="./images/benefits/ide.svg" class="img-fluid img-card-benefit" loading="lazy" alt="ide.svg" />
+                </div>
+                <div class="card-body body-benefit">
+                  <h5 class="card-title-benefit">Ide Cemerlang</h5>
+                  <p class="card-text-benefit">Pecahkan masalah yang kamu hadapi.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-6 col-md-4 my-2 px-2">
+                <div class="card item-benefit-1">
+                  <div class="card-title-benefit p-3">
+                  <img src="./images/benefits/hadiah.svg" class="img-fluid img-card-benefit" loading="lazy" alt="hadiah.svg" />
+                </div>
+                <div class="card-body body-benefit">
+                  <h5 class="card-title-benefit">Hadiah</h5>
+                  <p class="card-text-benefit">Dapatkan hadiah dari mentor atau teman mu.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-4 my-2 px-2">
+                <div class="card item-benefit-1">
+                  <div class="card-title-benefit p-3">
+                  <img src="./images/benefits/jadwal.svg" class="img-fluid img-card-benefit" loading="lazy" alt="jadwal.svg" />
+                </div>
+                <div class="card-body body-benefit">
+                  <h5 class="card-title-benefit">Jadwal</h5>
+                  <p class="card-text-benefit">Atur jadwal pembelajaran mu</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 banner-benefits">
+              <img src="./images/benefits/img-benefit.jpg" alt="benefit" loading="lazy" class="img-fluid img-benefit">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
