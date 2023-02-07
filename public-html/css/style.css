@@ -366,7 +366,7 @@ section#mapel {
     left: 80px;
  }
  .content-about-pengetahuan{
-    padding-left: 150px;
+        padding-left: 150px;
  }
  .title-about-pengetahuan{
     font-weight: 700;
@@ -514,7 +514,7 @@ background: #faf8f9;
     font-weight: 500;
     font-size: 18px;
 }
-
+/* SELECT */
 .select {
     width: 182px;
     height: 45px;
@@ -526,6 +526,8 @@ background: #faf8f9;
     font-weight: 500;
     font-size: 18px;
 }
+
+/* FILTER */
 .filter {
 width: 182px;
 }
@@ -548,21 +550,28 @@ line-height: 22px;
 color: #2447f9;
 font-family: "Noto Sans", sans-serif;
 }
-.tags {
-background: rgba(250, 248, 249, 0.75);
-box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.1);
-font-family: "Noto Sans", sans-serif;
-font-size: 16px;
-line-height: 22px;
+.tags{
+    background: rgba(250, 248, 249, 0.75);
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.1);
 }
-.section-filter .tags .active {
-color: #6491aa;
-border-bottom: 2px solid #6491aa;
+.tags a{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #121212;
+}
+.section-filter .tags .active{
+    border-bottom: 2px solid #6491aa;
+}
+.section-filter .tags .active a{
+    color: #6491aa;
 }
 /* *AKHIR SEARCH */
 
 /* *KURSUS */
-.section-kursus .container .col-4 .card .label {
+.section-kursus .container .col-md-4 .card .label {
 position: absolute;
 left: 20px;
 top: 20px;
@@ -598,11 +607,19 @@ font-family: "Noto Sans", sans-serif;
 color: rgba(18, 18, 18, 0.75);
 margin-bottom: 80px;
 }
-.section-kursus .container .col-4 .card .d-flex a {
+.section-kursus .container .col-md-4 .card .d-flex a {
 color: #faf8f9;
-font-family: "NotoSansSemiBold";
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
 font-size: 18px;
-line-height: 24px;
+line-height: 25px;
+}
+.btn-rules img{
+    fill: #FAF8F9;
+    color: #FAF8F9;
+    margin-bottom: 5px;
+    margin-right: 8px;
 }
 .btn-rules {
 background-color: #ffb93c;
@@ -620,6 +637,8 @@ font-weight: 600;
 font-size: 18px;
 line-height: 25px;
 }
+
+/*  */
 .section-kursus .tag {
 color: #121212;
 letter-spacing: 0.32em;
@@ -631,6 +650,15 @@ font-family: "Noto Sans", sans-serif;
 .btn-all-kursus {
 background: rgba(18, 18, 18, 0.1);
 border-radius: 10px;
+padding: 5px 30px;
+}
+.btn-all-kursus a{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(18, 18, 18, 0.75);
 }
 .btn-all-kursus:hover {
 background: rgba(18, 18, 18, 0.1);
@@ -644,7 +672,6 @@ font-family: "Poppins", sans-serif;
 }
 /* *SECTION PAGINATE */
 .section-kursus select {
-font-family: "NotoSansSemiBold";
 font-weight: 500;
 font-size: 16px;
 line-height: 22px;
@@ -652,8 +679,8 @@ color: #121212;
 }
 .section-kursus .paginate button {
 width: 50px;
-font-family: "NotoSansSemiBold";
 font-size: 16px;
+font-weight: 600;
 line-height: 22px;
 opacity: 0.75;
 background-color: #faf8f9;
@@ -693,18 +720,22 @@ border-radius: 5px;
 
 /* *TESTIMONIAL */
 .section-testimonional {
-background: url("/Assets/image/bg-testimonial.jpg");
+background: url("../images/testimonials/bg-testimonial.jpg");
 background-size: cover;
 background-repeat: no-repeat;
-}
-.starts {
-color: #ffb93c;
 }
 .card-text-testi {
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 color: rgba(18, 18, 18, 0.5);
+}
+.card-title-testimoni{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
 }
 .nama {
 font-weight: 500;
@@ -721,16 +752,17 @@ color: rgba(18, 18, 18, 0.5);
 /* *AKHIR TESTIMONIAL */
 
 /* *HERO */
-/* .section-hero {
-background: url("/Assets/image/ranting-2.png");
-background-repeat: no-repeat;
-background-size: cover;
-} */
 .ranting-2 {
     position: absolute;
     left: 0;
     bottom: 0;
     top: 3000px;
+}
+.ranting-2_1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 4382px;
 }
 .ranting-3 {
     position: absolute;
@@ -738,11 +770,17 @@ background-size: cover;
     bottom: 0;
     top: 3240px;
 }
-.section-hero .container {
-    background: url("/Assets/image/bg-hero.jpg");
-    background-size: cover;
+.ranting-3_1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 4600px;
+}
+.section-hero {
+    background: url("../images/course_page/bg-hero.png");
+    background-size:80%;
+    background-position: center;
     background-repeat: no-repeat;
-    font-family: "PoppinsSemiBold";
 }
 .img-hero {
     position: relative;
@@ -806,6 +844,7 @@ footer {
 }
 .container .row .logo-footer p {
     margin-top: 30px;
+    width: 300px;
 }
 footer ul li {
     list-style: none;
