@@ -752,6 +752,11 @@ color: rgba(18, 18, 18, 0.5);
 /* *AKHIR TESTIMONIAL */
 
 /* *HERO */
+.ranting-1 {
+    position: absolute;
+    left: 814px;
+    bottom: 0;
+}
 .ranting-2 {
     position: absolute;
     left: 0;
@@ -775,6 +780,12 @@ color: rgba(18, 18, 18, 0.5);
     right: 0;
     bottom: 0;
     top: 4600px;
+}
+.ranting-3_2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 90px;
 }
 .section-hero {
     background: url("../images/course_page/bg-hero.png");
@@ -873,9 +884,12 @@ footer ul {
   
 
   /* SIGN UP */
-.img-daftar,
-    img {
+.img-daftar {
     padding: 0%;
+}
+.img-daftar img{
+    height: 100vh;
+    width: 100%;
 }
 .img-signup {
     height: 100vh;
@@ -936,6 +950,10 @@ footer ul {
     .img-login {
     padding: 0%;
     }
+    .img-login img {
+    height: 100vh;
+    width: 100%;
+    }
     .forgot-pw {
     text-decoration: none;
     color: #12121280;
@@ -948,11 +966,23 @@ footer ul {
     line-height: 20px;
     color: rgba(18, 18, 18, 0.5);
     }
-    .btn-opsi-masuk {
+    .btn-optional{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 20px;
+    }
+    .btn-opsi-masuk, .btn-opsi-masuk-2 {
     border: 0.5px solid rgba(18, 18, 18, 0.5);
     border-radius: 8px;
-    position: relative;
-    left: 75px;
-    margin-left: 25px;
-    margin-bottom: 30px;
+    }
+    .btn-opsi-masuk img{
+        width: auto;
+        height: 30px;
+    }
+    .btn-opsi-masuk-2 img{
+        width: auto;
+        height: 30px;
+        position: relative;
+        bottom: 2px;
     }
