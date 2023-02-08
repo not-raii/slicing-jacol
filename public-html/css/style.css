@@ -447,7 +447,7 @@ section#mapel {
     width: 291px;
 }
 .line-yellow{
-    border-bottom: 15px solid #FFB93C;
+    border-bottom: 10px solid #FFB93C;
     line-height: 0.4em;
     display: inline-table;
 }
@@ -769,6 +769,11 @@ color: rgba(18, 18, 18, 0.5);
     bottom: 0;
     top: 4382px;
 }
+.ranting-2_2 {
+    position: absolute;
+    left: -10px;
+    top: 756px;
+}
 .ranting-3 {
     position: absolute;
     right: 0;
@@ -786,6 +791,11 @@ color: rgba(18, 18, 18, 0.5);
     right: 0;
     bottom: 0;
     top: 90px;
+}
+.ranting-3_3 {
+    position: absolute;
+    right: 0;
+    top: 1050px;
 }
 .section-hero {
     background: url("../images/course_page/bg-hero.png");
@@ -985,4 +995,115 @@ footer ul {
         height: 30px;
         position: relative;
         bottom: 2px;
+    }
+
+    /* Section About Page */
+    .section-about-page{
+        background: url(../images/about_page/bg-about.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .header-about{
+        width: 550px;
+        margin-left: 200px;
+    }
+
+    .title-about-jcl{
+        width: 327px;
+    }
+    .title-about-jcl p span{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+    }
+    .title-about-jcl h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .content-about-jcl h6{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .goal-about-jcl h6{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 50px;
+    }
+
+    .goal-item-jcl img {
+        margin-bottom: 37px;
+        margin-right: 10px;
+    }
+
+    /* Section Developers Jacol */
+    .developer-jcl{
+        width: 800px;
+        margin-left: 200px;
+    }
+    .developer-jcl h6{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .developer-jcl .col-md-4 .developer{
+        width: 212px;
+        height: 260px;
+    }
+    .profile-dev h5{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 125.5%;
+        margin-top: 1em;
+    }
+    .sosmed-dev a{
+        margin-right: 10px;
+    }
+
+    /* Section Not Found */
+    .section-notfound{
+        padding: 100px 0px;
+    }
+    .content-notfound{
+        margin: auto 0;
+    }
+    .content-notfound h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 25px;
+    }
+    .content-notfound p{
+        width: 450px;
+        margin-top: 3rem;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+
+        /* Sub Dark 50 */
+
+        color: rgba(18, 18, 18, 0.5);
+    }
+    .btn-notfound{
+        background-color: #6491EE;
+        border-radius: 10px;
+        color: #fff;
+        padding: 8px 23px;
+        margin-top: 1rem;
     }
